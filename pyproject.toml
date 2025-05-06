@@ -1,0 +1,12 @@
+[project]
+name = "ha-zte-wf830"
+version = "0.1.0"
+description = "Home Assistant integration for ZTE WF830 router, providing monitoring and control capabilities through reverse-engineered API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "homeassistant>=2023.3.0",
+    "pydantic==1.10.2",
+    "requests==2.28.1",
+    "xmltodict==0.13.0",
+]

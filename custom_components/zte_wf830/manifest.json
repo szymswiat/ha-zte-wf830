@@ -1,0 +1,15 @@
+{
+  "domain": "zte_wf830",
+  "name": "ZTE WF830",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/zte_wf830",
+  "requirements": ["requests==2.28.1", "xmltodict==0.13.0", "pydantic==1.10.2"],
+  "ssdp": [],
+  "zeroconf": [],
+  "integration_type": "device",
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": ["@szymswiat"],
+  "iot_class": "local_polling"
+}
